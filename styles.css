@@ -1,0 +1,106 @@
+/* Color palette is from Color Hunt: https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e */
+
+/* I learned how to add a favicon to my web page from W3 Schools: https://www.w3schools.com/html/html_favicon.asp */
+/* The icon for my favicon was created by MaxiMax9055 on favicon.cc: https://www.favicon.cc/?action=icon&file_id=1008432 */
+
+/* I retrieved the GitHub icon from W3 Schools: https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-github */
+/* I retrieved the LinkedIn icon from W3 Schools: https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-linkedin-square */
+
+/* On the HTML page, I found the view port code from W3 Schools. I used this to help the website look better on smaller devices. https://www.w3schools.com/css/css_rwd_viewport.asp */
+
+/* I found information on the <nav> tag from W3 Schools. I used it to separate the icons from the internal navigation links: https://www.w3schools.com/tags/tag_nav.asp */
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: "Roboto Mono", serif;
+  }
+  
+  /* I found information on creating a top navigation bar from W3 Schools: https://www.w3schools.com/howto/howto_js_topnav.asp */
+  .topnav-right {
+    font-size: 24px;
+  }
+  
+  li {
+    display: inline;
+    font-family: "Roboto Mono", serif;
+    padding: 14px 16px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #112D4E;
+    margin-right: 10px;
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom right, #DBE2EF, #F9F7F7);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", serif;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono", serif;
+    margin: auto;
+    max-width: 1200px;
+    width: 80%;
+  }
+  
+  .profile-photo {
+    /* I used the Fancy Border Radius tool to come up with these numbers: https://9elements.github.io/fancy-border-radius/ */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 180px;
+    height: 170px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 1px;
+  }
+  
+  #name {
+    font-family: "Roboto Mono", serif;
+    color: #112D4E;
+  }
+  
+  #flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto Mono", serif;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+    width: 80%;
+  }
+  
+  .section {
+    color: #112D4E;
+  }
+  
+  h2 {
+    color: #3F72AF;
+  }
+  
+  h3 {
+    color: #112D4E;
+    font-size: medium;
+  }
+  
+  p {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .text {
+    font-family: "Roboto Mono", serif;
+    color: #112D4E;
+  }
+  
